@@ -7,7 +7,7 @@ const Header = () => {
       <div className='project__header-content'>
         <h1 className='gradient__text'>Andreas Blakli</h1>
         <p>Velkommen til min webside!</p>
-        <p>Her kan du finne informasjon om programmerings ferdighetene mine og porteføljen min</p>
+        <p>Her kan du finne informasjon om programmerings ferdighetene mine og porteføljen min.</p>
         {/*<p>Dette nettstedet inneholder informasjon om programmerings ferdighetene mine og porteføljen min.</p>*/}
         <p></p>        
       </div>

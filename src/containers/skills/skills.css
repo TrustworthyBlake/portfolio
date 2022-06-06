@@ -1,0 +1,116 @@
+.project__skills {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 4% 30%, rgba(65, 48, 153, 1) 0%, rgba(18, 33, 43, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 4% 30%, rgba(65, 48, 153, 1) 0%, rgba(18, 33, 43, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 4% 30%, rgba(65, 48, 153, 1) 0%, rgba(18, 33, 43, 1) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 4% 30%, rgba(65, 48, 153, 1) 0%, rgba(18, 33, 43, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 4% 30%, rgba(65, 48, 153, 1) 0%, rgba(18, 33, 43, 1) 100%);
+
+}
+
+.project__skills-highlight {
+    display: flex;
+}
+
+.project__skills-highlight .project__highlights-container__highlight {
+    margin: 0;
+}
+
+
+.project__skills-highlight .project__highlights-container__highlight-text {
+    max-width: 700px;
+}
+
+.project__skills-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.project__skills-heading h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    max-width: 510px;
+}
+
+.project__skills-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+}
+
+
+.project__skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+    
+}
+
+.project__skills-container .project__highlights-container__highlight {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+
+}
+
+.project__skills-container .project__highlights-container__highlight-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .project__skills-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .project__skills-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .project__skills-highlight .project__highlights-container__highlight {
+        flex-direction: column;
+    }
+
+    .project__skills-highlight .project__highlights-container__highlight-text {
+        margin-top: 0.5rem;
+    }
+
+    .project__skills-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .project__skills-highlight .project__highlights-container__highlight {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
