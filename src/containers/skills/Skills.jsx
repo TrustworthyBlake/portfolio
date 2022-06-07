@@ -10,14 +10,14 @@ const Skills = () => {
             </div>
 
             <div className='project__skills-container'>
-                <Highlight title="c++" text="fdsadfdsf" />
-                <Highlight title="b++" text="fdsadfdsf" />
-                <Highlight title="a++" text="fdsadfdsf cxvvvvvvvvvvvvv vdfgfdgggggggggggggggg gggggggggggggggggggg ggggggggggvv vvvvzxcvzcxvzxcv" />
+                <Highlight title="C/C++" text="Behersker godt." />
+                <Highlight title="Kotlin" text="Behersker godt." />
+                <Highlight title="GoLang" text="Behersker godt." />
             </div>
             <div className='project__skills-container'>
-                <Highlight title="d++" text="fdsadfdsf" />
-                <Highlight title="e++" text="fdsadfdsf" />
-                <Highlight title="f++" text="fdsadfdsf cxvvvvvvvvvvvvv vdfgfdgggggggggggggggg gggggggggggggggggggg ggggggggggvv vvvvzxcvzcxvzxcv" />
+                <Highlight title="Python" text="Behersker godt." />
+                <Highlight title="WIP" text="to-do" />
+                <Highlight title="WIP" text="to-do" />                
             </div>
         </div>
     )
