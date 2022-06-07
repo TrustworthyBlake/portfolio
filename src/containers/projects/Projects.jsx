@@ -20,7 +20,7 @@ const Projects = () => {
             text="Skrevet i HTML/CSS, javascript med bruk av rammeverket React."
             repoUrl="https://github.com/TrustworthyBlake/portfolio" />
           <Repo title="Banan alder identifiserer"
-            text="Programm som analyser bilder av bananer og skiller mellom gode og dårlige bananer med hjelp av 
+            text="Program som analyser bilder av bananer og skiller mellom gode og dårlige bananer med hjelp av 
            semantisk segmentering i et konvolusjonelt nevralt nettverk. Kodet i Matlab."
             repoUrl="https://github.com/miloszaw/objIdentify" />
           <Repo title="3D pacman"
@@ -33,7 +33,7 @@ const Projects = () => {
           <Repo title={"FPS multiplayer i Unreal Engine"}
             text={"FPS med multiplayer. Laget i Unreal Engine, C++."}
             repoUrl={"https://github.com/voaarnes/kcnGame"} />
-          <Repo title="48h game jam"
+          <Repo title="48h Game Jam"
             text="Game jam på 48 timer for å lære Unreal Engine."
             repoUrl="https://github.com/TrustworthyBlake/SoloGameJamAILv2" />
         </div>
