@@ -24,5 +24,3 @@ const Skills = () => {
 }
 
 export default Skills
-
-{/*rafce*/ }
