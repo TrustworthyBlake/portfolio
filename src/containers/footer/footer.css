@@ -1,0 +1,21 @@
+.project__footer {
+    display: felx;
+    flex-direction: column;
+    justify-content: center;
+    height: 4rem;
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 4% 30%, rgba(65, 48, 153, 1) 0%, rgba(18, 33, 43, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 4% 30%, rgba(65, 48, 153, 1) 0%, rgba(18, 33, 43, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 4% 30%, rgba(65, 48, 153, 1) 0%, rgba(18, 33, 43, 1) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 4% 30%, rgba(65, 48, 153, 1) 0%, rgba(18, 33, 43, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 4% 30%, rgba(65, 48, 153, 1) 0%, rgba(18, 33, 43, 1) 100%);
+}
