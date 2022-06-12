@@ -13,13 +13,13 @@ const Projects = () => {
           <Repo title="Bacheloroppgave"
             text="Gamification of Curricula for Primary, Lower Secondary, and Upper Secondary Schools. Skrevet i kotlin"
             repoUrl="https://github.com/TrustworthyBlake/ktxGamePrototype01" />
-          <Repo title="Rutetabell program"
+          <Repo title="Rutetabellprogram"
             text="Program som holder oversikt buss, bane ruter og stoppesteder med rutetabeller. Skrevet i C++."
             repoUrl="https://git.gvk.idi.ntnu.no/andrbl/gruppe44-prog1003-2022" />
           <Repo title="Denne nettsiden"
-            text="Skrevet i HTML/CSS, javascript med bruk av rammeverket React."
+            text="Skrevet i HTML/CSS, javascript med bruk av biblioteket React."
             repoUrl="https://github.com/TrustworthyBlake/portfolio" />
-          <Repo title="Banan alder identifiserer"
+          <Repo title="Bananalder identifiserer"
             text="Program som analyser bilder av bananer og skiller mellom gode og dårlige bananer med hjelp av 
            semantisk segmentering i et konvolusjonelt nevralt nettverk. Kodet i Matlab."
             repoUrl="https://github.com/miloszaw/objIdentify" />
@@ -27,8 +27,8 @@ const Projects = () => {
             text="3D Pac-man klone laget med openGL i C++."
             repoUrl="https://git.gvk.idi.ntnu.no/andrbl/imt2531_assignment2" />
           <Repo title="Løsningsforslag til oppgaver i C"
-            text="Løsningsforslag til oppgaver fra oppgave-kompendiet og obliger gitt av Forde Haug ved NTNU, Gjøvik. 
-          Kodet i C."
+            text="Løsningsforslag til oppgaver fra oppgave-kompendiet og obligatoriske innleveringer \
+            gitt av Forde Haug ved NTNU, Gjøvik. Kodet i C."
             repoUrl="https://github.com/TrustworthyBlake/grprogOppgaver" />
           <Repo title={"FPS multiplayer i Unreal Engine"}
             text={"FPS med multiplayer. Laget i Unreal Engine, C++."}

@@ -38,7 +38,7 @@ const Skills = () => {
                 konstruksjon av spillmotor fra grunnen av."} />
             </div>
             <div className='project__skills-container'>
-                <Highlight title={"Spillutvikling"} text={"Har spillutviklings erfaring i utviklerverktøyet Unreal Engine."} />
+                <Highlight title={"Spillutvikling"} text={"Har spillutviklingserfaring i utviklerverktøyet Unreal Engine."} />
                 <Highlight title={"Kunstig intelligens"} text={"Har erfaring med kunstig intelligens, maskinlæring og \
                 dyplæring, e.g. oppsett av kunstige nevrale nettverk og K-nærmeste naboer. \
                 Med rammeverkene scikit-learn, pytorch og tensorflow."} />
